@@ -61,25 +61,46 @@ hr{
 ul{
     list-style-type: none;
 }
+li{
+    margin-bottom: 1%;<
+}
 .list-section{
-    padding: 3% 3%;
+    padding: 3%;
 }
 .list-tasks{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
 .list-todo{
-    margin: 1%;
+    margin-bottom: 2%;
     font-size: 20px;
     font-weight: normal;
 }
 .check{
+    display: inline-block;
     border: 1px solid green;
     color: green;
     border-radius: 50%;
+    vertical-align: middle;
+    height: 17px;
+    width: 17px;
+    font-size: 10px;
 }
 .cross{
+    display: inline-block;
     border: 1px solid red;
     color: red;
     border-radius: 50%;
+    vertical-align: middle;
+    height: 17px;
+    width: 17px;
+    font-size: 10px;
+}
+.task{
+    width:fit-content;
+    height: fit-content;
+    text-align: center;
+    font-size: 17px;
 }
